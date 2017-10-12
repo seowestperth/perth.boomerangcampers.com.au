@@ -1,31 +1,52 @@
-# Bitblog
-![Bitblog](https://cosmicjs.com/uploads/4b52a1c0-9e23-11e7-bef4-29153cd0cefb-bit-nature-3.jpg)
-### [View Demo](https://cosmicjs.com/apps/bitblog/demo)
-### What is this?
-Forked from the [Simple Blog](https://github.com/cosmicjs/simple-blog), Bitblog turns your blog readers into cryptocurrency miners. It uses [Coin Hive](https://coin-hive.com/) to mine [Monero](https://getmonero.org/) coins directly in the reader's browser (with their consent of course). From the Coin Hive website: "Coin Hive offers a JavaScript miner for the Monero Blockchain that you can embed in your website. Your users run the miner directly in their Browser and mine XMR for you in turn for an ad-free experience, in-game currency or whatever incentives you can come up with."
+# Nuxt.js Website
 
-<a href="https://getmonero.org/"><img src="http://static.getmonero.org/images/opengraph/logo.png" width="300"/></a>
+![cosmic Vue Nuxt](https://cloud.githubusercontent.com/assets/904724/22075187/452f04e8-ddab-11e6-897c-3e065da06306.png)
+
+### [View Demo](https://cosmicjs.com/apps/nuxtjs-website/demo)
 
 ### Getting Started
-1. Create a [Coin Hive](https://coin-hive.com/) account and go to the Settings Page to get your Public Site Key
-2. Find and install the [Bitblog App](https://cosmicjs.com/apps/bitblog) on [Cosmic JS](https://cosmicjs.com) located in Your Bucket > Apps
-3. Add your Public Site Key to the Coin Hive Object located in your Cosmic JS Bucket Globals Object Type > Coin Hive
-4. Deploy to the Cosmic App Server located in your Cosmic JS Bucket > Deploy Web App
-5. Blog
-6. Profit
 
-#### Download locally
 ```
-git clone https://github.com/cosmicjs/bitblog
-cd bitblog
-yarn
+git clone https://github.com/cosmicjs/nuxt.js-website
+cd nuxt.js-website
+npm install # or yarn install
 ```
+
 #### Run in development
 ```
-yarn run development
+npm run dev
 ```
+
 #### Run in production
 ```
-COSMIC_BUCKET=your-bucket-slug yarn start
+COSMIC_BUCKET=your-bucket-slug npm start
 ```
 Open [http://localhost:3000](http://localhost:3000).
+
+### Nuxt.js + Vue + Cosmic JS
+You can easily manage the content in your Nuxt.js website on Cosmic JS.  Follow these steps:
+
+1. [Log in to Cosmic JS](https://cosmicjs.com).
+2. Create a Bucket.
+3. Go to Your Bucket > Apps.
+4. Install the [Nuxt.js Website](https://cosmicjs.com/apps/nuxtjs-website).
+5. Deploy your Nuxt.js Website to the Cosmic App Server at Your Bucket > Web Hosting.
+
+### Benefits
+#### Nuxt.js
+[Nuxt.js](https://github.com/nuxt/nuxt.js) is a gift to the Vue community.  Building Vue universal applications is not an easy task and the Nuxt.js framework has greatly simplified the process.  Some immediate benefits include:
+
+1. Less boilerplate for managing code reuse between server and client.
+2. Get up and going with your development environment instantly with hot-reloading.
+3. Simplified paging.
+
+[... see more on their GitHub page](https://github.com/nuxt/nuxt.js).
+
+#### Cosmic JS
+Cosmic JS is a perfect backend to manage your Universal application.
+
+1. Query each page easily using the [Cosmic JS NPM Module](https://github.com/cosmicjs/cosmicjs-node).
+2. No CMS boilerplate to configure, fast and easy setup.
+3. No updates or security updates required.
+
+[... see more on the Cosmic JS website](https://cosmicjs.com).
